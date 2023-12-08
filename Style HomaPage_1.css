@@ -1,0 +1,106 @@
+html{
+    /*background: #222;*/
+    background: #abb0b0c9;
+}
+        /* the home page of C.I.T */
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: rgb(8, 37, 54);   
+}
+        /* for the main content found at CUZ */
+ul a{
+    font-size: 20px;
+    float: left;
+    display: block;
+    border-radius: 4px;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+        /* the colour for appearance when you click/press on the bar */
+ul a:hover{
+   /* text-decoration: underline 1.0px solid #fff;*/
+    color: rgb(29, 154, 226);
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+        /*the property of the what is inside the HEADER part when clicked or hovered*/
+ul li ul li{
+    display: flex;
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: -1px;
+    border-bottom: 15px;
+    text-decoration: none;
+    height: 30px;
+    width: 140px;
+    border-bottom: 15px;
+    background-color: rgba(56, 99, 99, 0.454);
+    border-bottom: 1px solid #000000; 
+}
+
+     /*Video Properties*/
+.video-background{
+    margin-top: 0.999px;
+}
+   
+video{
+    padding-top: -20px;
+    position: absolute;
+    left: 3;
+    width: 1417px;
+    height: 570px;
+    padding: 0px;
+    object-fit: cover;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.content {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 15px;
+    letter-spacing: normal;
+    font-family: sans-serif;
+}
+
+/* lets solve button */
+button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background:rgba(0, 0, 0, 0.482);
+    border: 1px solid #fff;
+}
+
+.down{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
